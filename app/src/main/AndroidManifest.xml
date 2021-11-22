@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.projectegrancentre">
@@ -9,7 +10,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjecteGranCentre">
+       
         <activity
+            android:name=".Transports"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurants"
+            android:exported="true" />
+        <activity
+            android:name=".parking"
+            android:exported="true" />
+        <activity
+            android:name=".hotels"
+            android:exported="true" />
+		<activity
             android:name=".movies"
             android:exported="true" />
         <activity
@@ -27,3 +41,4 @@
     </application>
 
 </manifest>
+>>>>>>> 71fa8b1f198389aab15bafa5e44955ac9a1a0125
