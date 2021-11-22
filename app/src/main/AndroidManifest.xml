@@ -23,6 +23,12 @@
             android:name=".hotels"
             android:exported="true" />
         <activity
+            android:name=".movies"
+            android:exported="true" />
+        <activity
+            android:name=".business"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
