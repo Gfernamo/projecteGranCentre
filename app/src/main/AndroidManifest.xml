@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjecteGranCentre">
         <activity
-            android:name=".parking"
+            android:name=".movies"
             android:exported="true" />
         <activity
-            android:name=".hotels"
+            android:name=".business"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
