@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjecteGranCentre">
+       
+        <activity
+            android:name=".Transports"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurants"
+            android:exported="true" />
         <activity
             android:name=".parking"
             android:exported="true" />
