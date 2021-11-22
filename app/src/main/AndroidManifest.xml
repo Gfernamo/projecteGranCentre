@@ -17,6 +17,12 @@
             android:name=".Restaurants"
             android:exported="true" />
         <activity
+            android:name=".parking"
+            android:exported="true" />
+        <activity
+            android:name=".hotels"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
