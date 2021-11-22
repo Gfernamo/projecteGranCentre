@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">projecteGranCentre</string>
+    <string name="imatge_negocis">Imatge Negocis</string>
+    <string name="imatge_restaurants">Imatge Restaurants</string>
+    <string name="imatge_hotels">Imatge Hotels</string>
+    <string name="imatge_cartellera">Imatge Cartellera</string>
+    <string name="imatge_transports">Imatge Transports</string>
+    <string name="imatge_parkings">Imatge Parkings</string>
 </resources>
