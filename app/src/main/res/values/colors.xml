@@ -10,4 +10,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="marfil">#EFD0A3</color>
     <color name="background">#16989C</color>
+    <color name="transparente">#00FFFFFF</color>
 </resources>

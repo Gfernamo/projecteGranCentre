@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/white"
+        android:background="@drawable/background"
         android:id="@+id/restaurants_page">
 
         <com.google.android.material.appbar.AppBarLayout
@@ -294,7 +294,7 @@
                     android:layout_width="250dp"
                     android:layout_height="50dp"
                     app:cardElevation="0dp"
-                    app:cardUseCompatPadding="true">
+                    app:cardBackgroundColor="@color/transparente">
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
         </ScrollView>
