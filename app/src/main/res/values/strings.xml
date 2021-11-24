@@ -6,4 +6,13 @@
     <string name="imatge_cartellera">Imatge Cartellera</string>
     <string name="imatge_transports">Imatge Transports</string>
     <string name="imatge_parkings">Imatge Parkings</string>
+    <string name="peli_1">Dune</string>
+    <string name="peli_2">Cazafantasmas: \nMés Enllà</string>
+    <string name="peli_3">Sense temps per morir</string>
+    <string name="peli_4">Deadpool 3</string>
+    <string name="peli_5">Predator</string>
+    <string name="peli_6">Pokemon</string>
+    <string name="peli_7">Hackers</string>
+    <string name="info">Info</string>
+
 </resources>
