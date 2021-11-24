@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ibParking=findViewById(R.id.ib_parking);
         ibRestaurants=findViewById(R.id.ib_restaurants);
         ibTransports=findViewById(R.id.ib_transports);
-        ibMovies=findViewById(R.id.ib_movies);
+        ibMovies=findViewById(R.id.ib_cartellera);
         ibBusiness=findViewById(R.id.ib_business);
 
         //Vincular setOnClikListener per cridar al intent
