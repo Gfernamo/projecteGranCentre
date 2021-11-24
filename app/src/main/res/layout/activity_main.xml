@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/ib_business"
-            android:src="@drawable/business"
+            android:src="@drawable/negocis"
             android:layout_column="0"
             android:layout_row="0"
             android:layout_margin="5dp"
@@ -59,7 +59,7 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ib_movies"
+            android:id="@+id/ib_cartellera"
             android:src="@drawable/cartellera"
             android:layout_column="1"
             android:layout_row="0"
