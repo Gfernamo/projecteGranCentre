@@ -15,7 +15,9 @@ import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.navigation.NavigationView;
 
 public class parking extends AppCompatActivity {
-
+    /* Eva, sols he fet el layout en vertical/protrait, ja que tal i com l'he
+    dissenyat el telefon ja mostra be el layout encara que el tombi i el posi en horitzontal
+    o landscape, es per aixo que no he creat un altre layout especific */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -20,6 +20,9 @@ import com.google.android.material.navigation.NavigationView;
 public class hotels extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
 
+    /* Eva, sols he fet el layout en vertical/protrait, ja que tal i com l'he
+    dissenyat el telefon ja mostra be el layout encara que el tombi i el posi en horitzontal
+    o landscape, es per aixo que no he creat un altre layout especific */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,6 +110,8 @@ public class hotels extends AppCompatActivity implements AdapterView.OnItemSelec
         String categoria = (String)adapterView.getItemAtPosition(i);
         if (categoria!="Escull una opció")
         {
+            // Ojo, sols estan implementades com cal les categories de 2, 3, 4 estrelles. La de 1 i la de 5
+            // Sols son plantilles molt bàsiques.
             switch(categoria){
                 case "1 estrella":{
                     FragmentManager fm = getSupportFragmentManager();
@@ -145,6 +150,6 @@ public class hotels extends AppCompatActivity implements AdapterView.OnItemSelec
 
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
-
+        // Decideixo deixar en blanc si no hi ha cap selecció.
     }
 }

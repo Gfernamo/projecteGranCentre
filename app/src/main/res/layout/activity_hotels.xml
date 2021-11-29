@@ -7,11 +7,14 @@
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
     tools:context=".hotels">
-
+    <!-- Eva, sols he fet el layout en vertical/protrait, ja que tal i com l'he
+    dissenyat el telefon ja mostra be el layout encara que el tombi i el posi en horitzontal
+    o landscape, es per aixo que no he creat un altre layout especific -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:backgroundTint="@color/background"
         android:background="@color/white"
         android:id="@+id/hotels_page">
 

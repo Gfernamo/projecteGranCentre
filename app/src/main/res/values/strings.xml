@@ -15,6 +15,34 @@
         <item>4 estrelles</item>
         <item>5 estrelles</item>
     </string-array>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="tlf2estrelles">
+        <item>935689060</item> <!-- Ibis -->
+        <item>938407132</item> <!-- B&B -->
+        <item>938615558</item> <!-- Verti -->
+    </string-array>
+    <string-array name="web2estrelles">
+        <item>https://www.booking.com/hotel/es/ibis-montmelo-granollers.es.html</item> <!-- Ibis -->
+        <item>https://www.hotel-bb.com/es/hotel/barcelona-granollers</item> <!-- B&B -->
+        <item>http://www.hotelverti.com/</item> <!-- Verti -->
+    </string-array>
+    <string-array name="tlf3estrelles">
+        <item>938700312</item> <!-- Fonda -->
+        <item>938795100</item> <!-- Granollers -->
+        <item>938792929</item> <!-- Iris -->
+    </string-array>
+    <string-array name="web3estrelles">
+        <item>https://hotelfondaeuropa.com/</item> <!-- Fonda -->
+        <item>https://www.hotelgranollers.com/</item> <!-- Granollers -->
+        <item>https://www.hoteliris.com/</item> <!-- Iris -->
+    </string-array>
+    <string-array name="tlf4estrelles">
+        <item>938794820</item> <!-- Atenea -->
+        <item>938456050</item> <!-- Augusta -->
+        <item>938796220</item> <!-- Ciutat -->
+    </string-array>
+    <string-array name="web4estrelles">
+        <item>https://www.aparthotelateneavalles.com/</item> <!-- Atenea -->
+        <item>https://www.hotelaugustavalles.com/</item> <!-- Augusta -->
+        <item>https://www.hotelciutatgranollers.com/</item> <!-- Ciutat -->
+    </string-array>
 </resources>

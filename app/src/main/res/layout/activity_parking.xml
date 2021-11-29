@@ -7,11 +7,15 @@
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
     tools:context=".parking">
+    <!-- Eva, sols he fet el layout en vertical/protrait, ja que tal i com l'he
+    dissenyat el telefon ja mostra be el layout encara que el tombi i el posi en horitzontal
+    o landscape, es per aixo que no he creat un altre layout especific -->
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:backgroundTint="@color/background"
         android:background="@color/white"
         android:id="@+id/parkings_page">
 
@@ -36,7 +40,10 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:id="@+id/parking1"
@@ -52,7 +59,10 @@
                 android:text="PARKING AUDITORI\nEntrades:\nCarrer Ponent,41\nCarrer Rafael Casanova,38\nTelefon:\n93 846 47 27\nHORARI:\n24h els 365 dies\n\n\n"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:id="@+id/parking2"
@@ -69,7 +79,10 @@
                 Dissabtes de 8:30 a 22h\nDiumenges tancat\n\n\n"/>
         </LinearLayout>
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:id="@+id/parking3"
@@ -87,7 +100,10 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:id="@+id/parking4"

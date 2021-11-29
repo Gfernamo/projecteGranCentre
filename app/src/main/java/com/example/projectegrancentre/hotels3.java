@@ -1,5 +1,7 @@
 package com.example.projectegrancentre;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,13 +9,14 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link hotels3#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class hotels3 extends Fragment {
+public class hotels3 extends Fragment implements View.OnClickListener {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -60,7 +63,66 @@ public class hotels3 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_hotels3, container, false);
-
+        Button tlf0,web0,tlf1,web1,tlf2,web2;
+        tlf0=v.findViewById(R.id.tlf0);
+        tlf0.setOnClickListener(this);
+        web0=v.findViewById(R.id.web0);
+        web0.setOnClickListener(this);
+        tlf1=v.findViewById(R.id.tlf1);
+        tlf1.setOnClickListener(this);
+        web1=v.findViewById(R.id.web1);
+        web1.setOnClickListener(this);
+        tlf2=v.findViewById(R.id.tlf2);
+        tlf2.setOnClickListener(this);
+        web2=v.findViewById(R.id.web2);
+        web2.setOnClickListener(this);
         return v;
+    }
+
+    @Override
+    public void onClick(View view) {
+        int idRebuda = view.getId();
+        String tlf[]=getResources().getStringArray(R.array.tlf3estrelles);
+        String web[]=getResources().getStringArray(R.array.web3estrelles);
+
+        switch(idRebuda){
+            case R.id.tlf0:{
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:"+tlf[0]));
+                startActivity(intent);
+                break;
+            }
+            case R.id.web0:{
+                Uri uri = Uri.parse(web[0]);
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+                break;
+            }
+            case R.id.tlf1:{
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:"+tlf[1]));
+                startActivity(intent);
+                break;
+            }
+            case R.id.web1:{
+                Uri uri = Uri.parse(web[1]);
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+                break;
+            }
+            case R.id.tlf2:{
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:"+tlf[2]));
+                startActivity(intent);
+                break;
+            }
+            case R.id.web2:{
+                Uri uri = Uri.parse(web[2]);
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+                break;
+            }
+
+        }
     }
 }
