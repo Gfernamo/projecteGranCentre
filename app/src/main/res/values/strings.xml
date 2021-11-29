@@ -14,5 +14,11 @@
     <string name="peli_6">Pokemon</string>
     <string name="peli_7">Hackers</string>
     <string name="info">Info</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_textTrucarTel">Trucar per telèfon</string>
+    <string name="mostrar_al_mapa">Mostrar al mapa</string>
+    <string name="visitar_la_web">Visitar la web</string>
+    <string name="mostrar_la_web">mostrar la web</string>
 
 </resources>

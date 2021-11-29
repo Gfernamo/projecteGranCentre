@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/background"
-        android:id="@+id/restaurants_page">
+        android:background="@drawable/cartellera_background"
+        android:id="@+id/movies_page">
 
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
@@ -22,7 +22,7 @@
                 android:id="@+id/topAppbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:title="Gran Centre"
+                app:title="Cine"
                 android:background="@color/marfil"
                 app:navigationIcon="@drawable/ic_menu"
                 />

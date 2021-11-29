@@ -7,8 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="grey">#8E8E8E</color>
+    <color name="darkgrey">#424242</color>
     <color name="white">#FFFFFFFF</color>
     <color name="marfil">#EFD0A3</color>
+    <color name="darkMarfil">#C4924A</color>
     <color name="background">#16989C</color>
+    <color name="blue">#08A9FF</color>
     <color name="transparente">#00FFFFFF</color>
 </resources>
