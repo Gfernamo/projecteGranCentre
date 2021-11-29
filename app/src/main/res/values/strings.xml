@@ -6,6 +6,47 @@
     <string name="imatge_cartellera">Imatge Cartellera</string>
     <string name="imatge_transports">Imatge Transports</string>
     <string name="imatge_parkings">Imatge Parkings</string>
+    <!-- Parkings & Hotels strings - Gerard -->
+    <string name="escull_la_categoria">Escull la categoria:</string>
+    <string-array name="hotels_array">
+        <item>Escull una opció</item>
+        <item>1 estrella</item>
+        <item>2 estrelles</item>
+        <item>3 estrelles</item>
+        <item>4 estrelles</item>
+        <item>5 estrelles</item>
+    </string-array>
+    <string-array name="tlf2estrelles">
+        <item>935689060</item> <!-- Ibis -->
+        <item>938407132</item> <!-- B&B -->
+        <item>938615558</item> <!-- Verti -->
+    </string-array>
+    <string-array name="web2estrelles">
+        <item>https://www.booking.com/hotel/es/ibis-montmelo-granollers.es.html</item> <!-- Ibis -->
+        <item>https://www.hotel-bb.com/es/hotel/barcelona-granollers</item> <!-- B&B -->
+        <item>http://www.hotelverti.com/</item> <!-- Verti -->
+    </string-array>
+    <string-array name="tlf3estrelles">
+        <item>938700312</item> <!-- Fonda -->
+        <item>938795100</item> <!-- Granollers -->
+        <item>938792929</item> <!-- Iris -->
+    </string-array>
+    <string-array name="web3estrelles">
+        <item>https://hotelfondaeuropa.com/</item> <!-- Fonda -->
+        <item>https://www.hotelgranollers.com/</item> <!-- Granollers -->
+        <item>https://www.hoteliris.com/</item> <!-- Iris -->
+    </string-array>
+    <string-array name="tlf4estrelles">
+        <item>938794820</item> <!-- Atenea -->
+        <item>938456050</item> <!-- Augusta -->
+        <item>938796220</item> <!-- Ciutat -->
+    </string-array>
+    <string-array name="web4estrelles">
+        <item>https://www.aparthotelateneavalles.com/</item> <!-- Atenea -->
+        <item>https://www.hotelaugustavalles.com/</item> <!-- Augusta -->
+        <item>https://www.hotelciutatgranollers.com/</item> <!-- Ciutat -->
+    </string-array>
+    <!-- Movies & Business strings - Denis -->
     <string name="peli_1">Dune</string>
     <string name="peli_2">Cazafantasmas: \nMés Enllà</string>
     <string name="peli_3">Sense temps per morir</string>
@@ -14,11 +55,9 @@
     <string name="peli_6">Pokemon</string>
     <string name="peli_7">Hackers</string>
     <string name="info">Info</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="btn_textTrucarTel">Trucar per telèfon</string>
     <string name="mostrar_al_mapa">Mostrar al mapa</string>
     <string name="visitar_la_web">Visitar la web</string>
     <string name="mostrar_la_web">mostrar la web</string>
-
 </resources>

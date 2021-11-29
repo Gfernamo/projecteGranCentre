@@ -22,6 +22,7 @@ public class business extends AppCompatActivity implements OnItemSelectedListene
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_business);
         MaterialToolbar toolbar = findViewById(R.id.topAppbar);
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
@@ -104,8 +105,7 @@ public class business extends AppCompatActivity implements OnItemSelectedListene
     }
 
     @Override
-    public void onNothingSelected (AdapterView <?> arg0)
-    {
-
+    public void onNothingSelected (AdapterView <?> arg0){
+      
     }
 }
