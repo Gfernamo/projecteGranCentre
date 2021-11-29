@@ -6,39 +6,50 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Restaurants">
+    tools:context=".business">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/white"
-        android:id="@+id/restaurants_page">
+        android:id="@+id/business_main_page" >
 
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/white">
             <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/topAppbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:title="Gran Centre"
+                app:title="Negocis"
                 android:background="@color/marfil"
                 app:navigationIcon="@drawable/ic_menu"
                 />
-        </com.google.android.material.appbar.AppBarLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Restaurants"
-            android:layout_centerInParent="true" />
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnerNegoci"
+                android:entries="@array/sp_BusinessOpcions"
+                android:textColor="@color/darkgrey"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:id="@+id/idBusinessMainFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
     </RelativeLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity=""
+        android:layout_gravity="start"
         android:id="@+id/lateral_menu"
         app:headerLayout="@layout/menu_header"
         app:menu="@menu/navigation_items">
