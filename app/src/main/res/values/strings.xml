@@ -6,4 +6,15 @@
     <string name="imatge_cartellera">Imatge Cartellera</string>
     <string name="imatge_transports">Imatge Transports</string>
     <string name="imatge_parkings">Imatge Parkings</string>
+    <string name="escull_la_categoria">Escull la categoria:</string>
+    <string-array name="hotels_array">
+        <item>Escull una opció</item>
+        <item>1 estrella</item>
+        <item>2 estrelles</item>
+        <item>3 estrelles</item>
+        <item>4 estrelles</item>
+        <item>5 estrelles</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
