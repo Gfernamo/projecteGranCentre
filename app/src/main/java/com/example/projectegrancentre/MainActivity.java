@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent transports = new Intent(this,Transports.class);
             startActivity(transports);
         }
-
         else if(ibMovies.getId()==idRebuda){
             Intent movies = new Intent(this,movies.class);
             startActivity(movies);
@@ -69,6 +68,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent business = new Intent(this,business.class);
             startActivity(business);
         }
-
     }
 }
