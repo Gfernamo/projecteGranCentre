@@ -60,4 +60,45 @@
     <string name="mostrar_al_mapa">Mostrar al mapa</string>
     <string name="visitar_la_web">Visitar la web</string>
     <string name="mostrar_la_web">mostrar la web</string>
+    <!-- Aina -->
+    <string-array name="cangallina">
+        <item>+34610680899</item>
+        <item>41.60738476622932,2.2890372796914997</item>
+        <item>https://cangallinagastrobar.com/</item>
+    </string-array>
+    <string-array name="larectoriadepalou">
+        <item>+34938706945</item>
+        <item>41.58893513827399,2.2798776917773327</item>
+        <item>http://www.larectoriadepalou.net/</item>
+    </string-array>
+    <string-array name="cityrestaurant">
+        <item>+34938796220</item>
+        <item>41.60103009575819,2.2958786924722103</item>
+        <item>http://www.ciutathotels.com/</item>
+    </string-array>
+    <string-array name="eltrull">
+        <item>+34938701517</item>
+        <item>41.608847322033704,2.290259837007332</item>
+        <item>http://www.eltrull.es/</item>
+    </string-array>
+    <string-array name="kodama">
+        <item>+34934637756</item>
+        <item>41.606317055643004,2.2896673281303843</item>
+        <item>https://www.espaikodama.com/</item>
+    </string-array>
+    <string-array name="naguabo">
+        <item>+34938707848</item>
+        <item>41.61015820819686,2.2892209577784546</item>
+        <item>http://www.naguabo.cat/</item>
+    </string-array>
+    <string-array name="portalvell">
+        <item>+34938415679</item>
+        <item>41.627200073801625,2.234847609971807</item>
+        <item>http://www.elportalvell.com/</item>
+    </string-array>
+    <string-array name="vinyam">
+        <item>+34930232899</item>
+        <item>41.607553420696746,2.2842096972568036</item>
+        <item>http://www.vinyam.es/</item>
+    </string-array>
 </resources>

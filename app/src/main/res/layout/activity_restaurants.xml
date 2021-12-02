@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".Restaurants">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -28,12 +28,93 @@
                 />
         </com.google.android.material.appbar.AppBarLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <SearchView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Restaurants"
-            android:layout_centerInParent="true" />
-    </RelativeLayout>
+            android:id="@+id/restSearchView"
+            android:iconifiedByDefault="false"
+            android:queryHint="Nom restaurant"></SearchView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/light_orange"
+                android:layout_margin="2dp"
+                android:textSize="12sp"
+                android:id="@+id/allFilter"
+                android:text="Tots" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/light_orange"
+                android:layout_margin="2dp"
+                android:textSize="12sp"
+                android:id="@+id/catalanFilter"
+                android:text="Catalana" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/light_orange"
+                android:layout_margin="2dp"
+                android:textSize="12sp"
+                android:id="@+id/meditFilter"
+                android:text="Mediterrani" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/light_orange"
+                android:layout_margin="2dp"
+                android:textSize="12sp"
+                android:id="@+id/gastroFilter"
+                android:text="GastroBar" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/light_orange"
+                android:layout_margin="2dp"
+                android:textSize="12sp"
+                android:id="@+id/japanFilter"
+                android:text="Japonès" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/light_orange"
+                android:layout_margin="2dp"
+                android:textSize="12sp"
+                android:id="@+id/italianFilter"
+                android:text="Italià" />
+        </LinearLayout>
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rest_listview"/>
+
+
+
+    </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
