@@ -105,6 +105,6 @@ public class business extends AppCompatActivity implements OnItemSelectedListene
 
     @Override
     public void onNothingSelected (AdapterView <?> arg0){
-      
+
     }
 }
