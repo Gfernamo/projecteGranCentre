@@ -65,7 +65,7 @@ public class business_MainFragment extends Fragment implements View.OnClickListe
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_business__main, container, false);
+        View v = inflater.inflate(R.layout.fragment_business_main, container, false);
 
         //region Botones de llamada.
         btnTru1 = (Button) v.findViewById(R.id.btn_telBusinessTaller_1);

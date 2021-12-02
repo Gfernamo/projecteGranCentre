@@ -65,7 +65,7 @@ public class business_TheFragmentPerruqueries extends Fragment implements View.O
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_business__the_perruqueries, container, false);
+        View v = inflater.inflate(R.layout.fragment_business_the_perruqueries, container, false);
 
         //region Botones de llamada.
         btnTru4 = (Button) v.findViewById(R.id.btn_telBusinessTaller_4);

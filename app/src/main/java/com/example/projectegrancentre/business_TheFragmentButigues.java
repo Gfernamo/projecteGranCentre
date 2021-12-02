@@ -65,7 +65,7 @@ public class business_TheFragmentButigues extends Fragment implements View.OnCli
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_business__the_butigues, container, false);
+        View v = inflater.inflate(R.layout.fragment_business_the_butigues, container, false);
 
         //region Botones de llamada.
         btnTru7 = (Button) v.findViewById(R.id.btn_telBusinessTaller_7);

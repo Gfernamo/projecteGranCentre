@@ -65,7 +65,7 @@ public class business_TheFragmentTallers extends Fragment implements View.OnClic
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_business__the_tallers, container, false);
+        View v = inflater.inflate(R.layout.fragment_business_the_tallers, container, false);
 
         //region Botones de llamada.
         btnTru1 = (Button) v.findViewById(R.id.btn_telBusinessTaller_1);
