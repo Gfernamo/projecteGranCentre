@@ -12,12 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:id="@+id/business_main_page" >
+        android:background="@drawable/wallpaper_vertical"
+        android:id="@+id/business_main_page"
+        >
 
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white">
+            android:background="@color/white"
+            android:backgroundTint="@color/light_marfil">
             <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/topAppbar"
                 android:layout_width="match_parent"
