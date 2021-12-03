@@ -6,6 +6,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
     tools:context=".Restaurants">
 
     <LinearLayout
@@ -68,9 +69,6 @@
                 android:textSize="12sp"
                 android:id="@+id/meditFilter"
                 android:text="Mediterrani" />
-
-
-
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
